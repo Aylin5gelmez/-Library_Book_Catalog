@@ -1,0 +1,27 @@
+Books={
+    "Dram":["Pride and Prejudice" ,"To Kill a Mockingbird", "A Streetcar Named Desire",
+"Death of a Salesman","The Catcher in the Rye"],
+
+"Adventure":["Treasure Island","The Odyssey","Robinson Crusoe","The Call of the Wild"],
+    
+"Dystopian":["1984","Brave New World" ,"Fahrenheit 451","The Handmaid’s Tale"],
+    
+"Psychology":["Crime and Punishment","The Bell Jar","The Metamorphosis","One Flew Over the Cuckoo's Nest"]}
+
+searched_book=input("What type of book are you looking for?").capitalize()
+
+if searched_book=="Dram":
+    print("Pride and Prejudice" ,"To Kill a Mockingbird", "A Streetcar Named Desire",
+"Death of a Salesman","The Catcher in the Rye")
+
+elif searched_book=="Adventure":
+  print("Treasure Island","The Odyssey","Robinson Crusoe","The Call of the Wild")
+
+elif searched_book=="Dystopian":
+  print("1984","Brave New World" ,"Fahrenheit 451","The Handmaid’s Tale")
+
+elif searched_book=="Psychology":
+ print("Crime and Punishment","The Bell Jar","The Metamorphosis","One Flew Over the Cuckoo's Nest")
+
+else:
+  print("Sorry, we couldn't find that genre!")
